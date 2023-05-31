@@ -27,6 +27,7 @@ DELETE /api/users/{id}: IDでユーザー削除する
 ```
 ## 使い方
 例：ブラウザで　GET リクエスト`http://localhost:8000` 
+
 ```
 {"Laravel":"10.12.0"}
 ```
