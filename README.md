@@ -31,7 +31,29 @@ curl -X POST -d "name=user01&email=user01@email.com&password=password" http://lo
 ```
 戻り値
 ```
-{"name":"user01","email":"user01@email.com","updated_at":"2023-05-31T04:47:37.000000Z","created_at":"2023-05-31T04:47:37.000000Z","id":2}
+{
+"name":"user01",
+"email":"user01@email.com",
+"updated_at":"2023-05-31T04:47:37.000000Z",
+"created_at":"2023-05-31T04:47:37.000000Z",
+"id":1
+}
+```
+IDで確認
+```
+curl http//localhost:8000/api/1
+```
+
+戻り値
+```
+{
+"id":1,
+"name":"user01",
+"email":"user01@email.com",
+"email_verified_at":null,
+"created_at":"2023-05-31T04:47:37.000000Z",
+"updated_at":"2023-05-31T04:47:37.000000Z"
+}
 ```
 
 
