@@ -19,9 +19,15 @@ PUT /api/users/{id}: IDでユーザーの情報を更新
 DELETE /api/users/{id}: IDでユーザー削除する
 ```
 ## 使い方
-[Postman](https://www.postman.com/),CURL でリクエスト
-例：　ブラウザで　GET リクエスト`http://localhost:8000` 
-戻り値
+例：ブラウザで　GET リクエスト`http://localhost:8000` 
 ```
 {"Laravel":"10.12.0"}
 ```
+GET リクエストはブラウザでできるけど　POST PUT DELETE は　[Postman](https://www.postman.com/),CURL を使ってください。
+
+例: Curl でPOST   
+```
+curl -X POST -d "name=user01&email=user01@email.com&password=password" http://localhost:8000/api/users/
+```
+
+
