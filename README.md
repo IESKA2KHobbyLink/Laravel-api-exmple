@@ -18,3 +18,10 @@ POST /api/users: ユーザー制作
 PUT /api/users/{id}: IDでユーザーの情報を更新
 DELETE /api/users/{id}: IDでユーザー削除する
 ```
+## 使い方
+[Postman](https://www.postman.com/),CURL でリクエスト
+例：　ブラウザで　GET リクエスト`http://localhost:8000` 
+戻り値
+'''
+{"Laravel":"10.12.0"}
+'''
