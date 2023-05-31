@@ -22,6 +22,6 @@ DELETE /api/users/{id}: IDでユーザー削除する
 [Postman](https://www.postman.com/),CURL でリクエスト
 例：　ブラウザで　GET リクエスト`http://localhost:8000` 
 戻り値
-'''
+```
 {"Laravel":"10.12.0"}
-'''
+```
