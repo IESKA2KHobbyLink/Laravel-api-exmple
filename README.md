@@ -11,12 +11,19 @@
 7. 開発用サーバーを起動する: `php artisan serve`
 
 ## Routings
+
+CRUD
 ```
 GET /api/users: すべてのユーザーを取得する
 GET /api/users/{id}: ユーザーをIDで取得する
 POST /api/users: ユーザー制作
 PUT /api/users/{id}: IDでユーザーの情報を更新
 DELETE /api/users/{id}: IDでユーザー削除する
+```
+ユーザー認証
+```
+ /api/login 
+ /api/logout 
 ```
 ## 使い方
 例：ブラウザで　GET リクエスト`http://localhost:8000` 
