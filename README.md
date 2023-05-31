@@ -1,5 +1,5 @@
-#Laravel-api-example
-#インストール
+# Laravel-api-example
+# インストール
 
 1. リポジトリをクローンする: `git clone https://github.com/IESKA2KHobbyLink/Laravel-api-exmple.git`
 2. 必要なパッケージをインストールする: `composer install`
