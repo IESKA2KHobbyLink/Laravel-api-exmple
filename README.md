@@ -29,5 +29,9 @@ GET リクエストはブラウザでできるけど　POST PUT DELETE は　[Po
 ```
 curl -X POST -d "name=user01&email=user01@email.com&password=password" http://localhost:8000/api/users/
 ```
+戻り値
+```
+{"name":"user01","email":"user01@email.com","updated_at":"2023-05-31T04:47:37.000000Z","created_at":"2023-05-31T04:47:37.000000Z","id":2}
+```
 
 
